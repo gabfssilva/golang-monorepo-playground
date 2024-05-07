@@ -1,5 +1,8 @@
 VERSION 0.8
 
+all-artifact:
+    BUILD ./libs/result+artifact
+
 all-unit-test:
     BUILD ./libs/hello+unit-test
     BUILD ./services/one+unit-test
